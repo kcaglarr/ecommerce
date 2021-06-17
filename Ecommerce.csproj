@@ -67,16 +67,93 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\animate.css" />
+    <Content Include="Assets\css\bootstrap.css" />
+    <Content Include="Assets\css\flex-slider.min.css" />
+    <Content Include="Assets\css\font-awesome.css" />
+    <Content Include="Assets\css\jquery-ui.css" />
+    <Content Include="Assets\css\jquery.fancybox.min.css" />
+    <Content Include="Assets\css\magnific-popup.css" />
+    <Content Include="Assets\css\magnific-popup.min.css" />
+    <Content Include="Assets\css\nice-select.css" />
+    <Content Include="Assets\css\niceselect.css" />
+    <Content Include="Assets\css\owl-carousel.css" />
+    <Content Include="Assets\css\reset.css" />
+    <Content Include="Assets\css\responsive.css" />
+    <Content Include="Assets\css\slicknav.min.css" />
+    <Content Include="Assets\css\style.css" />
+    <Content Include="Assets\css\themify-icons.css" />
+    <Content Include="Assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\fonts\themify.svg" />
+    <Content Include="Assets\images\favicon.png" />
+    <Content Include="Assets\images\logo.png" />
+    <Content Include="Assets\images\logo2.png" />
+    <Content Include="Assets\images\map-marker.png" />
+    <Content Include="Assets\images\payment-method.png" />
+    <Content Include="Assets\images\payments.png" />
+    <Content Include="Assets\js\active.js" />
+    <Content Include="Assets\js\bootstrap.min.js" />
+    <Content Include="Assets\js\easing.js" />
+    <Content Include="Assets\js\facnybox.min.js" />
+    <Content Include="Assets\js\finalcountdown.min.js" />
+    <Content Include="Assets\js\flex-slider.js" />
+    <Content Include="Assets\js\gmap.min.js" />
+    <Content Include="Assets\js\jquery-migrate-3.0.0.js" />
+    <Content Include="Assets\js\jquery-ui.min.js" />
+    <Content Include="Assets\js\jquery.min.js" />
+    <Content Include="Assets\js\magnific-popup.js" />
+    <Content Include="Assets\js\map-script.js" />
+    <Content Include="Assets\js\nicesellect.js" />
+    <Content Include="Assets\js\onepage-nav.min.js" />
+    <Content Include="Assets\js\owl-carousel.js" />
+    <Content Include="Assets\js\popper.min.js" />
+    <Content Include="Assets\js\scrollup.js" />
+    <Content Include="Assets\js\slicknav.min.js" />
+    <Content Include="Assets\js\waypoints.min.js" />
+    <Content Include="Assets\js\ytplayer.min.js" />
+    <Content Include="Assets\mail\mail.php" />
+    <Content Include="Assets\TextFile1.txt" />
+    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EcommerceMaster.Master.cs">
+      <DependentUpon>EcommerceMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EcommerceMaster.Master.designer.cs">
+      <DependentUpon>EcommerceMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EcommerceMaster.Master" />
+    <Content Include="Assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Assets\fonts\themify.eot" />
+    <Content Include="Assets\fonts\themify.ttf" />
+    <Content Include="Assets\fonts\themify.woff" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
